@@ -4,7 +4,16 @@ import React, { Component } from 'react';
 export default class GameGrid extends Component { 
     render() {
         return (
-            <circle>Test</circle>
+            <div>
+                <div>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                </div>
+                <div>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                </div>
+            </div>
         );
     }
 }
